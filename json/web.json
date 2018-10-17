@@ -1,0 +1,71 @@
+{
+   "name": "~",
+   "type": "dir",
+   "contents": [
+      {
+         "name": "welcome.txt",
+         "type": "text",
+         "contents": "Greetings! My name is Wei Wang! Welcome to Wei's World! <br><br>",
+         "description": "greeting and intro"
+      },
+      {
+         "name": "info.txt",
+         "type": "text",
+         "contents": "I am professional Software Engineer bilingual in English and Mandarin. I am a self-starter & love to learn all cutting-edge technologies. I have the experiences with PHP7, Javascript/ES6, React/Redux, VueJs, Babel, Webpack, AWS, NoSQL, Ajax, Java, Python, Memcached, etc...You can find me on <a href='https://github.com/weiwang314' class='exec'>Github</a> or my <a href='https://www.linkedin.com/in/weiwang314/' class='exec'>LinkedIn</a> page. Also feel free to send me an email at <span class='exec'>wwei1987@gmail.com</span> <br><br>",
+         "description": "brief intro"
+      },
+      {
+         "name": "me.jpg",
+         "type": "img",
+         "contents": "/images/me.jpg",
+         "caption": "@zion national park"
+      },
+      {
+         "name": "resume.pdf",
+         "type": "text",
+         "contents": "resume available soon..."
+      },
+      {
+         "name": "projects",
+         "type": "dir",
+         "contents": [
+            {
+               "name": "triniti",
+               "type": "dir",
+               "contents": [
+                  {
+                     "name": "triniti.txt",
+                     "type": "text",
+                     "contents": "<a class='exec' href='https://github.com/triniti'>Triniti</a> is an open source framework build on pbj and <a class='exec' href='https://github.com/gdbots/pbjx-php'>pbjx</a>, and <a class='exec' href='https://github.com/gdbots/pbjx-php'>pbjx</a> is a messging tool which inspired by Google's <a href='https://developers.google.com/protocol-buffers/' class='exec'>Protocol Buffers</a>.",
+                     "description": "What is triniti and pbjx ?"
+                  },
+                  {
+                     "name": "triniti/app-js",
+                     "type": "exec",
+                     "contents": "https://github.com/triniti/app-js",
+                     "description": "Lightweight container for redux + pbjx app."  
+                  },
+                  {
+                     "name": "triniti/admin-ui-plugin-js",
+                     "type": "exec",
+                     "contents": "https://github.com/triniti/admin-ui-plugin-js",
+                     "description": "Admin UI plugin for triniti apps."
+                  },
+                  {
+                     "name": "triniti/notify-php",
+                     "type": "exec",
+                     "contents": "https://github.com/triniti/notify-php",
+                     "description": "Php library that provides implementations for triniti:notify schemas."
+                  }
+               ]
+            },
+            {
+               "name": "shoutrageous! CMS",
+               "type": "exec",
+               "contents": "https://itunes.apple.com/us/app/shoutrageous/id1163925890?mt=8",
+               "description": "Design and code the content management system for shoutrageous! in VueJs"
+            }
+         ]
+      }
+   ]
+}

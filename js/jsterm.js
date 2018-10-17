@@ -492,17 +492,17 @@
    }
 
    var term = Object.create(Terminal);
-   term.init(CONFIG, '/json/sample.json', COMMANDS, function() {
+   term.init(CONFIG, '/json/web.json', COMMANDS, function() {
       term.enqueue('login')
-          .enqueue('clark')
-          .enqueue('******')
-          .enqueue('cat file1')
+          .enqueue('weiwang314')
+          .enqueue('********')
+          .enqueue('cat welcome.txt')
+          .enqueue('cat info.txt')
           .enqueue('help')
           .enqueue('ls -l')
-          .enqueue('cd dir1/foo')
+          .enqueue('cd projects/triniti')
           .enqueue('ls')
-          .enqueue('cd ../..')
-          .enqueue('ls dir1/foo')
+          .enqueue('cd ../')
           .enqueue('tree')
           .begin();
    });
